@@ -1,0 +1,35 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# LangGraph & LangChain
+langgraph==1.2.9
+langchain==1.3.12
+langchain-core==1.4.9
+langchain-community==0.4.2
+langchain-openai==1.3.3
+langchain-huggingface==1.2.2
+langgraph-checkpoint==4.1.1
+
+# For embeddings and models
+sentence-transformers==5.6.0
+transformers==5.13.0
+torch==2.7.1+cu118
+torchvision==0.22.1+cu118
+torchaudio==2.7.1+cu118
+
+# Vector databases (if using)
+chromadb==1.5.9
+qdrant-client==1.18.0
+pymilvus==2.6.16
+
+# Utilities
+httpx==0.28.1
+loguru==0.7.3
+pyyaml==6.0.3
+numpy==2.2.6
+pandas==2.3.3
+tiktoken==0.13.0
