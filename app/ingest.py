@@ -1,8 +1,3 @@
-# ============================================
-# INGESTION - Create Qdrant Database with Sentence-Based Chunking
-# CPU-ONLY VERSION - CONFIGURABLE FOR FASTAPI
-# ============================================
-
 import time
 import os
 import shutil
